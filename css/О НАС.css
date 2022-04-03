@@ -408,7 +408,7 @@ body{
     background-size: 100%;
     font-family: "Montserrat";
     font-style: normal;
-
+    background: #E14231;
 }
 
 
@@ -418,7 +418,7 @@ body{
     max-width:1024px;
     height: 685px;
     margin:0 auto;
-    background: url(../img/certjoz.jpg) no-repeat;
+    background: url(../img/miziki.jpg) no-repeat;
 }
 
 .header__wraper{
@@ -427,8 +427,14 @@ body{
     height: 142px;
     justify-content: space-between;
     align-items: center;
-}
 
+}
+.header__wraper-center{
+    width: 1024px;
+    height: 30px;
+    background: rgba(196, 196, 196, 0.8);
+    position: relative;
+}
 
 .header__wrapper-1{
     font-family: Montserrat;
@@ -456,49 +462,6 @@ body{
         clip-path: polygon(0 0, 320px 0, 344px 22px, 0 22px);
 }
 
-    .header__burger{
-        position: relative;
-        width: 30px;
-        height: 20px;
-    }
-    .header__burger span{
-        position: absolute;
-        background: #000000;
-        position: absolute;
-        left: 500px;
-        width: 100%;
-        height: 2px;
-        top: 9px: ;
-    }
-
-    .header__burger:before,
-    .header__burger:after{
-        content: "";
-        background-color: #000000;
-        position: absolute: ;
-        width: 100%;
-        height: 2px;
-        left: 0;
-    }
-    .header__burger:before{
-        top: 0: ;
-    }
-    .header__burger:after{
-        bottom: 0;
-    }
-
-
-
-
-.header__link{
-    font-size: 20px;
-    line-height: 24px;
-    color: #000000;
-    text-decoration: none;
-}
-
-
-
 
 .header__list{
     display: flex;
@@ -513,10 +476,18 @@ body{
 .header__list: last-child{
     margin-right: 20px;
 }
+
+.header__link{
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    text-decoration: none;
+}
+
+
 .header__link:hover, .header__link:focus, .header__link:active{
     opacity: .75;
     text-decoration: underline;
-    cursor: pointer;
 
 }
 .ikonki__link:hover, .ikonki__link:focus{
@@ -525,12 +496,13 @@ body{
 
 .header__wrapper-2{
     background: rgba(0, 0, 0, 0.35);
-    width: 1024px;
+    max-width: 1024px;
     height: 153px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: center;
+    margin: 0 auto;
 }
 
 .header__logo-pic{
@@ -591,344 +563,327 @@ body{
     margin-bottom: -40px;
 }
 
-/*Nasi poslednie raboti start*/
-
-.proekti__end{
-    max-width: 1024px;
-    margin: 0 auto;
-}
-.poslednie__proekti{
-    width: 751px;
-    height: 613px;
-    background: #FFEB54;
-    margin: 0 auto;
-    position: relative;
-    right: 136px;
-    bottom: 102px;
-
-}
-
-.wrapper2{
-    width: 900px;
-    height: 559px;
-    margin: 0 auto;
-    position: relative;
-    right: 62px;
-    bottom: 1025px;
-    z-index: 1;
-}
-
-.poslednie__proekti-kont{
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 37px;
-    display: block;
-    margin-left: 160px;
-    padding-top: 30px;
-
-}
-
-.fitnes__klub{
-    max-width: 711px;
-    height: 66px;
-    background: #C4C4C4;
-    position: relative;
-    left: 313px;
-    bottom: 613px;
-}
-
-.fitnes__klub-kont{
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 37px;
-    color: #000000;
-    display: block;
-    margin-left: 160px;
-    padding-top: 15px;
-}
-
-.fitnes__klub-kont-2{
-    max-width: 711px;
-    height: 537px;
-    background: #FFFFFF;
-    position: relative;
-    left: 313px;
-    bottom: 613px;
-}
-
-.fitnes__klub-kont-3{
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 18px;
-    color: #000000;
-    display: block;
-    margin-left: 160px;
-    margin-right: 30px;
-    padding-top: 20px;
-}
-
-.seraja__linija{
-    max-width: 1024px;
-    height: 398px;
-    background: #C4C4C4;
-    position: relative;
-    bottom: 1180px;
-}
-
-.zoltaja__linija{
-    max-width: 1024px;
-    height: 66px;
-    background: #FFEB54; 
-    position: relative;
-    bottom: 1360px; 
-
-}
-
-.zoltaja__linija-text{
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 30px;
-line-height: 37px;
-color: #000000;
-display: block; 
-margin-left: 280px; 
-padding-top: 14px;
-}
-
-
-.seraja__linija2 {
-    z-index: 1;
-
-max-width: 1024px; 
-position: relative; 
-height: 470px; 
-bottom:1360px; 
-background: rgba(0, 0, 0, 0.35);
-
-
-
-}
-.seraja__linija2-text {
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 15px;
-line-height: 18px;
-display: block; 
-margin-left: 280px; 
-margin-right: 250px; 
-padding-top: 10px;  
-}
-
-.fotki__litva {
-    z-index: 2;
-max-width: 903px; 
-height: 600px;
-position: relative;
-bottom: 1738px;
-left: 121px;
-
-
-
-}
-.fotki__litva-1 {}
-.litva__foto {}
-
-
-.ser__block{
-
+.start{
 max-width: 1024px;
-height: 1699px;
-background: #C4C4C4;
-position: relative;
-bottom: 2316px;
-
+margin: 0 auto;
 }
 
-.otelj__mariot{
-width: 1024px;
-height: 66px;
-background: rgba(1, 1, 1, 0.35);
-position: relative;
-bottom: 3320px;
+.seraja__linija-o-nas {
+    max-width: 565px;
+    background: rgba(0, 0, 0, 0.7);
+    height: 54px;
+    position: relative;
+    bottom: 360px;
+
 }
-
-.otelj__mariot-1{
-font-family: Montserrat;
-font-style: 700;
-font-weight: normal;
-font-size: 30px;
-line-height: 37px;
-padding-top: 14px;
-margin-left: 121px;
-}
-
-
-.fotki__otelja {
-max-width: 670px;
-height: 431.06px;
-position: relative;
-bottom: 3320px;
+.seraja__linija-o-nas-text {
+width: 82px;
+height: 29px;
 z-index: 1;
-
-
-}
-.fotki__otelja-1 {
-
-
-
-}
-.otelja__foto {
-
-
-
-}
-
-
-.belij_block {
-max-width: 354px;
-height: 476px;
-background: #FFFFFF;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
 position: relative;
+color: #E5E5E5;
+left: 242px;
+bottom: -12px;
+}
+
+
+.seraja__fignja-pod-blockom-1 {
+position: relative;
+max-width: 1024px;
+height: 650px;
+background:#676767;
+bottom: 201px;
+}
+
+.seraja__figna-pod-blockom-1-text {
+width: 1024px;
+height: 250px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 26,82px;
+left: 19px;
+position: relative;
+top: 6px;
+color: #000000;
+}
+
+.foto__pacanchika {
+    position: relative;
+    bottom: 570px;
+}
+.foto__pacanchika1 {
+
+}
+.zelenaja__herobora {
+
+width: 354px;
+height: 447px;
+position: relative;
+background: #B3C87B;
 left: 670px;
-bottom: 3751.06px;
-
+bottom: 1018px;
 }
-.belij__block-text {
-width: 336px;
-height: 90px;
+.zelenaja__herebora-text {
+width: 211px;
+height: 24px;
+position: relative;
 font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
-font-size: 15px;
-line-height: 18px;
+font-size: 20px;
+line-height: 24px;
+left: 64px;
+top: 43px;
+right: 79px;
+bottom: 380px;
 color: #000000;
+
+
+}
+.zelenaja__herobora-podkontext {
+position: relative;
+width: 224px;
+height: 22px;
+top: 139px;
+left: 8px;
+right: 122px;
+bottom: 286px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+color: #000000;
+
+}
+.zelenaja__herobora-podkontext-2 {
+width: 337px;
+height: 44px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+position: relative;
+left: 8px;
+right: 9px;
+top: 201px;
+bottom: 202px;
+color: #000000;
+
+}
+.zelenaja__herobora-podkontext-3 {
+color: #000000;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+position: relative;
+left: 8px;
+top: 290px;
+
+}
+.zelenaja__herobora-bolsaja {
+width: 1024px;
+height: 91px;
+position: relative;
+background: #B3C87B;
+bottom: 1018px;
+
+}
+.zelenaja__herobora-bolsaja-text {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+left: 9px;
+position: relative;
+top: 10px;
+
+}
+
+.foto__tjeti {
+bottom: 1018px;
+position: relative;
+left: 355px;
+z-index: 5;
+z-index: 1;
+max-width: 670px;
+height: 446.67px;
+}
+.foto__tjeti-1 {
+
+
+}
+
+.zheltij__block {
+bottom: 1465px;
+max-width: 600px;
+height: 667px;
+position: relative;
+background: #FFEB54;
+}
+
+.zheltij__block-text {
+max-width: 192px;
+height: 24px;
 display: block;
-margin-left: 9px;
-padding-top: 71px;
-margin-right: 9px;
-}
-
-.zeljonij__prjamougolnik {
-    max-width: 1024px;
-    height: 494px;
-    background: #B3C87B;
-    position: relative;
-    bottom: 3850px;
-}
-
-.fotki__restik {
-    max-width: 692px;
-    height: 460px;
-    position: relative;
-    bottom: 4243px;
-    margin-left: 332px;
-}
-.fotki__restik-1 {}
-.restik__foto {}
-
-.zoltij__prjam{
-    max-width: 332px;
-    height: 68px;
-    background: #FFEB54;
-    position: relative;
-    bottom: 4311px;
-
-}
-
-.bolshoj__beljij-1{
-
-max-width: 1024px;
-height: 1103px;
-bottom: 4311px;
-background: white;
-position: relative;
-
-}
-
-.seraja__linija-saulkraste {
-
-
-max-width: 1024px;
-height: 100px;
-background: rgba(0, 0, 0, 0.35);
-position: relative;
-bottom: 5414px;
-}
-
-.seraja__linija-saulkraste-text {
-
-width: 423px;
-height: 37px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 30px;
-line-height: 37px;
-color: #000000;
-left: 140px;
-position: relative;
-bottom: -44px;
-
-
-}
-
-.serij__block-kotedzh-saulkraste {
-position: relative;
-z-index: 6;
-width: 900px;
-height: 214px;
-background: #A6A6A6;
-bottom: 5414px;
-}
-.serij__block-kotedzh-saulkraste-text {
-
-max-width: 341px;
-height: 18px;
 position: relative;
 font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
-font-size: 15px;
-line-height: 18px;
-left: 140px;
+font-size: 20px;
+line-height: 24px;
+left: 90px;
+top: 40px;
 color: #000000;
-bottom: -83px;
 
 }
 
+.zheltij__block-1-text {
 
-.fotki__saulkraste-dom {
-
-bottom: 5414px;
-
+max-width: 184px;
+height: 44px;
 position: relative;
-
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+left: 30px;
+top: 80px;
+color: #000000;
 }
-.fotki__saulkraste-dom-1 {
 
+.zheltij__block-2-text {
 
-
+max-width: 251px;
+height: 90px;
+position: relative;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+left: 30px;
+top: 105px;
+color: #000000;
 }
 
+.zheltij__block-3-text {
+position: relative;
+max-width: 254px;
+height: 63px;
+left: 30px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+top: 123px;
+color: #000000;
+}
+
+.zheltij__block-4-text{
+position: relative;
+max-width: 565px;
+height: 63px;
+left: 30px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+top: 200px;
+color: #000000;
+}
+
+.serij___blok-domenik {
+max-width: 424px;
+height: 220px;
+position: relative;
+background: #C4C4C4;
+left: 601px;
+bottom: 1685px;
+}
+
+.serij__blok-domenik-text {
+max-width: 145px;
+height: 24px;
+position: relative;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+left: 139px;
+top: 118px;
+bottom: 78px;
+right: 140px;
+color: #000000;
+}
+
+.ogromenij__serij-block {
+max-width: 1024px;
+height: 579px;
+position: relative;
+background: #C4C4C4;
+bottom: 1685px;
+left: 1px;
+}
+
+.ogromenij__serij-block-text {
+z-index: 2;
+max-width: 389px;
+height: 242px;
+position: relative;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+left: 617px;
+top: 24px;
+color: #000000;
+}
+
+.ogromenij__serij-block-text-1 {
+z-index: 2;
+max-width: 389px;
+height: 242px;
+position: relative;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+left: 617px;
+top: 10px;
+color: #000000;
+}
+
+.foto__kitajozi {
+left: 1px;
+position: relative;
+bottom: 2264px;
+}
+
+.foto_kitajozi-1 {}
 .samij__niz-ogo{
-    
 max-width: 696px;
 height: 66px;
 position: relative;
-bottom: 5287px;
+bottom: 2200px;
 background: #878585;
-    
+left: 1px;
 }
 
 .samij__niz-ogo-text-1{
@@ -941,7 +896,6 @@ color: #000000;
 display: block;
 margin-left: 20px;
 padding-top: 10px;
-
 }
 
 .samij__niz-ogo-text-2{
@@ -953,18 +907,18 @@ line-height: 19px;
 color: #000000;
 display: block;
 margin-left: 35px;
-
 }
 
 .samij__niz-zoltij {
 max-width: 443px;
 height: 100px;
 position: relative;
-bottom: 5387px;
-left: 581px;
+bottom: 2300px;
+left: 582px;
 background: #FFEB54;
 clip-path: polygon(0 0, 443px 0, 443px 100px, 100px 100px);
 }
+
 .samij__niz-zoltij-text {
 font-family: Montserrat;
 font-style: normal;
@@ -981,7 +935,3 @@ padding-top: 32px;
 
 
 
-
-
-
-/* Nasi poslednie raboti end */
